@@ -29,7 +29,7 @@ function ProjectPage(props) {
         <div className="py-5">
           <span className="font-semibold">Website</span>
           <p className="text-blue-600">
-            <a target="_blank" href={projectInfo.website} className="">
+            <a target="_blank" rel="noreferrer" href={projectInfo.website} className="">
               <span className="inline-block">{projectInfo.website} </span>
               <span className="inline-block ml-1">
                 <BsArrowUpRightSquare />
@@ -40,7 +40,7 @@ function ProjectPage(props) {
         <div className="pb-5">
           <span className="font-semibold">Repository</span>
           <p className="text-blue-600">
-            <a target="_blank" href={projectInfo.source} className="">
+            <a target="_blank" rel="noreferrer" href={projectInfo.source} className="">
               <span className="inline-block">{projectInfo.source} </span>
               <span className="inline-block ml-1">
                 <BsArrowUpRightSquare />

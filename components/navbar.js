@@ -19,7 +19,7 @@ function Navbar() {
               <Link href="/projects">Works</Link>
             </li>
             <li className="p-3">
-              <Link href="https://github.com/Ahmed-Labs" target="_blank">
+              <Link href="https://github.com/Ahmed-Labs" rel="noreferrer" target="_blank">
                 <div className="flex items-center">
                   <BsGithub />
                   <span className="px-1">Github</span>

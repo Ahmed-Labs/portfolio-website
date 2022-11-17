@@ -7,13 +7,13 @@ function Footer() {
       <div className=" border-t-2 border-t-black py-3 flex items-center flex-col md:flex-row">
         <div className="md:mr-auto flex flex-row">
           <div className="flex items-center m-3">
-            <Link href="https://github.com/Ahmed-Labs" target="_blank">
+            <Link href="https://github.com/Ahmed-Labs" rel="noreferrer" target="_blank">
               <BsGithub />
             </Link>
           </div>
 
           <div className="flex items-center m-3">
-            <Link href="https://github.com/Ahmed-Labs" target="_blank">
+            <Link href="https://github.com/Ahmed-Labs" rel="noreferrer" target="_blank">
               <BsGithub />
             </Link>
           </div>
