@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <div className="ml-auto rounded-full align-middle w-[64px] h-[64px] md:w-[100px] md:h-[100px] border-4 border-beige-300 overflow-hidden">
             <Image
-              src="/unempfrog.avif"
+              src="/unempfrog.jpg"
               alt="avatar"
               width="200"
               height="200"
