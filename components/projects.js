@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 function Projects({ projects }) {
@@ -7,7 +7,7 @@ function Projects({ projects }) {
     <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
       {projects.map((project) => {
         return (
-          <div className="flex flex-col items-cener">
+          <div key={project.name} className="flex flex-col items-cener">
             <div className="h-[200px] w-full md:w-[250px] rounded-lg overflow-hidden">
               <div className="h-full w-full relative bg-white">
                 <Image

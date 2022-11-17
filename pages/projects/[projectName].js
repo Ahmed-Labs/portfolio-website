@@ -1,7 +1,7 @@
 import React from "react";
 import { getProjects } from "../../data";
 import { BsArrowUpRightSquare } from "react-icons/bs";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 function ProjectPage(props) {
