@@ -83,7 +83,7 @@ function Technology() {
                 return (
                   <div className="p-3 flex flex-col items-center">
                     <div className="h-[50px] w-[50px]">
-                      <Image src={tech.logo} height="64" width="64" />
+                      <Image alt={tech.name} src={tech.logo} height="64" width="64" />
                     </div>
                     <span className="mt-auto pt-3">{tech.name}</span>
                   </div>

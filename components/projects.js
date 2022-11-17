@@ -10,7 +10,12 @@ function Projects({ projects }) {
           <div className="flex flex-col items-cener">
             <div className="h-[200px] w-full md:w-[250px] rounded-lg overflow-hidden">
               <div className="h-full w-full relative bg-white">
-                <Image src={project.banner} layout="fill" objectFit="cover" />
+                <Image
+                  alt={project.name}
+                  src={project.banner}
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
             <div className="p-2">
