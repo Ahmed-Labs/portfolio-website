@@ -53,7 +53,7 @@ function ProjectPage(props) {
           <div className="grid grid-cols-3 md:grid-cols-5 gap-2">
             {projectInfo.stack.map((item) => {
               return (
-                <p className="col-span-1 text-center px-2 py-1 rounded bg-beige-300">
+                <p key={item} className="col-span-1 text-center px-2 py-1 rounded bg-beige-300">
                   {item}
                 </p>
               );
@@ -61,10 +61,10 @@ function ProjectPage(props) {
           </div>
         </div>
         <div className="my-7">
-          {projectInfo.previews.map((preview) => {
+          {projectInfo.previews.map((preview, idx) => {
             return (
-              <div className="mb-4">
-                <Image src={preview} height="400" width="600" />
+              <div key={idx} className="mb-4">
+                <Image alt={idx} src={preview} height="400" width="600" />
               </div>
             );
           })}
