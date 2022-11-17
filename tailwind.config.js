@@ -12,6 +12,9 @@ module.exports = {
           400: "#F4EDE4",
           300: "#F5F0E8"
         },
+        indigo: {
+          500: "#6B9080"
+        }
       },
       fontFamily: {
         Lato: ["Lato", "sans-serif"],
