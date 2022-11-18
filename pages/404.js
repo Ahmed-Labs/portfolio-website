@@ -16,7 +16,7 @@ export default function FourOhFour() {
             back if you must...
           </p>
         </div>
-        <Link href="/">
+        <Link scroll={false} href="/">
           <div className="py-3 px-4 mt-5 bg-indigo-500 text-white rounded">
             Head Back
           </div>

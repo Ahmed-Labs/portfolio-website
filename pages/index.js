@@ -63,7 +63,7 @@ export default function Home() {
           <h1 className="text-xl font-bold mb-5">Works</h1>
           <Projects projects={featuredProjects} />
           <div className="flex justify-center">
-            <Link href="/projects">
+            <Link scroll={false} href="/projects">
               <div className="my-5 py-3 px-4 bg-indigo-500 rounded text-white">
                 All Projects
               </div>

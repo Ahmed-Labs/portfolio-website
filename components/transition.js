@@ -7,7 +7,7 @@ function Transition({ children }) {
   const variants = {
     out: {
       opacity: 0,
-      y: 20,
+      y: 0,
       transition: {
         duration: 0.2,
       },
@@ -23,7 +23,14 @@ function Transition({ children }) {
   };
   return (
     <div className="effect-1">
-      <AnimatePresence initial={false} exitBeforeEnter>
+      <AnimatePresence
+        exitBeforeEnter
+        onExitComplete={() => {
+          if (typeof window !== "undefined") {
+            window.scrollTo({ top: 0 });
+          }
+        }}
+      >
         <motion.div
           key={asPath}
           variants={variants}

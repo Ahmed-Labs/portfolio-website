@@ -15,7 +15,7 @@ function ProjectPage(props) {
               <Link href="/projects">
                 <span className="text-indigo-500">Works </span>
               </Link>
-              <span>{" > "}</span>
+              <span>{" / "}</span>
               <span className="text-black text-xl font-bold">
                 {projectInfo.name}
               </span>

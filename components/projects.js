@@ -20,6 +20,7 @@ function Projects({ projects }) {
             </div>
             <div className="p-2">
               <Link
+                scroll={false}
                 href={
                   "/projects/" + project.name.replace(/\s+/g, "-").toLowerCase()
                 }

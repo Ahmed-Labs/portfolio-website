@@ -7,13 +7,21 @@ function Footer() {
       <div className=" border-t-2 border-t-black py-3 flex items-center flex-col md:flex-row">
         <div className="md:mr-auto flex flex-row">
           <div className="flex items-center m-3">
-            <Link href="https://github.com/Ahmed-Labs" rel="noreferrer" target="_blank">
+            <Link
+              href="https://github.com/Ahmed-Labs"
+              rel="noreferrer"
+              target="_blank"
+            >
               <BsGithub />
             </Link>
           </div>
 
           <div className="flex items-center m-3">
-            <Link href="https://github.com/Ahmed-Labs" rel="noreferrer" target="_blank">
+            <Link
+              href="https://github.com/Ahmed-Labs"
+              rel="noreferrer"
+              target="_blank"
+            >
               <BsGithub />
             </Link>
           </div>
@@ -33,7 +41,7 @@ function Footer() {
           </p>
         </div>
         <div className="md:ml-auto">
-          <Link href="/resume">
+          <Link scroll={false} href="/resume">
             <div className="my-3 md:my-0 py-3 px-4 bg-indigo-500 rounded text-white">
               Resume
             </div>
