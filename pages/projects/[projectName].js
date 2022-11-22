@@ -16,16 +16,16 @@ function ProjectPage(props) {
                 <span className="text-indigo-500">Works </span>
               </Link>
               <span>{" / "}</span>
-              <span className="text-black text-xl font-bold">
+              <span className="text-xl font-bold">
                 {projectInfo.name}
               </span>
-              <span className="ml-2 rounded bg-beige-300 px-2 py-1">
+              <span className="ml-2 rounded bg-beige-300 dark:bg-dark-300 px-2 py-1">
                 Sept 2022
               </span>
             </h1>
           </div>
         </div>
-        <p>{projectInfo.description}</p>
+        <p className="dark:text-gray-100">{projectInfo.description}</p>
         <div className="py-5">
           <span className="font-semibold">Website</span>
           <p className="text-blue-600">
@@ -53,7 +53,7 @@ function ProjectPage(props) {
           <div className="grid grid-cols-3 md:grid-cols-5 gap-2">
             {projectInfo.stack.map((item) => {
               return (
-                <p key={item} className="col-span-1 text-center px-2 py-1 rounded bg-beige-300">
+                <p key={item} className="col-span-1 text-center px-2 py-1 rounded bg-beige-300 dark:bg-dark-300">
                   {item}
                 </p>
               );

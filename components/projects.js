@@ -9,7 +9,7 @@ function Projects({ projects }) {
         return (
           <div key={project.name} className="flex flex-col items-cener">
             <div className="h-[200px] w-full md:w-[250px] rounded-lg overflow-hidden">
-              <div className="h-full w-full relative bg-white">
+              <div className="h-full w-full relative">
                 <Image
                   alt={project.name}
                   src={project.banner}
@@ -25,9 +25,9 @@ function Projects({ projects }) {
                   "/projects/" + project.name.replace(/\s+/g, "-").toLowerCase()
                 }
               >
-                <p className="py-1 text-lg font-semibold">{project.name}</p>
+                <p className="py-1 text-lg font-semibold dark:text-gray-100">{project.name}</p>
               </Link>
-              <p className="py-2">{project.description}</p>
+              <p className="py-2 dark:text-gray-300">{project.description}</p>
             </div>
           </div>
         );

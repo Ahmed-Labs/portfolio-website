@@ -76,7 +76,7 @@ function Technology() {
     <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
       {Object.keys(technologies).map((category) => {
         return (
-          <div key={category} className="col-span-1 p-6 rounded-lg bg-beige-300 flex flex-col">
+          <div key={category} className="col-span-1 p-6 rounded-lg bg-beige-300 dark:bg-dark-300 flex flex-col">
             <h1 className="text-center text-lg mb-2">{category}</h1>
             <div className="w-full grid grid-cols-3 gap-3">
               {technologies[category].map((tech) => {

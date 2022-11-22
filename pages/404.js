@@ -5,7 +5,7 @@ export default function FourOhFour() {
   return (
     <div className="w-full flex justify-center">
       <div className="w-[600px] mx-5 flex flex-col items-center mt-10 md:my-20">
-        <div className="rounded-full align-middle w-[150px] h-[150px] border-4 border-beige-300 overflow-hidden mb-5">
+        <div className="rounded-full align-middle w-[150px] h-[150px] border-4 border-beige-300 dark:border-transparent overflow-hidden mb-5">
           <Image src="/unempfrog.jpg" alt="avatar" width="200" height="200" />
         </div>
         <div className="text-center mx-3">

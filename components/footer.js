@@ -4,7 +4,7 @@ import { BsGithub, BsArrowUpRight } from "react-icons/bs";
 function Footer() {
   return (
     <div className="absolute bottom-0 left-0 right-0 mt-10 mx-4">
-      <div className=" border-t-2 border-t-black py-3 flex items-center flex-col md:flex-row">
+      <div className=" border-t-2 border-t-black dark:border-t-gray-200 py-3 flex items-center flex-col md:flex-row">
         <div className="md:mr-auto flex flex-row">
           <div className="flex items-center m-3">
             <Link

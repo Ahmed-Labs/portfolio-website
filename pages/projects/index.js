@@ -13,7 +13,7 @@ function AllProjects() {
           <div className="w-full mt-5">
             <div className="mb-5">
               <h1 className="text-xl font-bold">All Projects</h1>
-              <p className="text-gray-600">{AllProjects.length} projects</p>
+              <p className="text-gray-600 dark:text-gray-300">{AllProjects.length} projects</p>
             </div>
             <Project projects={AllProjects}/>
           </div>
