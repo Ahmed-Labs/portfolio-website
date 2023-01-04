@@ -11,7 +11,7 @@ function Layout({ children }) {
     <div className={`${toggle && "dark"}`}>
       <div className="relative font-Lato min-w-full min-h-screen bg-beige-500 dark:bg-dark-500 dark:text-gray-100">
         <Navbar />
-        <main className="pb-[250px] md:pb-24">{children}</main>
+        <main className="pb-[250px] md:pb-32">{children}</main>
         <Footer />
       </div>
     </div>

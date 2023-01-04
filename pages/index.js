@@ -10,24 +10,21 @@ export default function Home() {
     return project.featured;
   });
   return (
-    <div className="mt-4 flex justify-center">
+    <div className="mt-7 flex justify-center">
       <div className="flex flex-col items-center max-w-[600px] mx-5 px-2">
         {/* Header */}
-        
-        <div className="w-full flex items-center my-5">
-          <div>
-            <h1 className="text-2xl md:text-3xl font-semibold">Ahmed Mohamed</h1>
-            <h2 className="md:text-lg text-gray-500 dark:text-gray-400">
-              (Developer / Student / Tea enjoyer)
-            </h2>
+
+        <div className="w-full flex items-center my-5 border-2 rounded-xl border-white bg-beige-300 dark:bg-dark-500 dark:border-dark-300">
+          <div className="ml-1 my-1 rounded-xl align-middle w-[100px] h-[100px] md:w-[100px] md:h-[100px] border dark:border-transparent overflow-hidden">
+            <Image src="/unempfrog.jpg" alt="avatar" width="200" height="200" />
           </div>
-          <div className="ml-auto rounded-full align-middle w-[64px] h-[64px] md:w-[100px] md:h-[100px] border-4 border-beige-300 dark:border-transparent overflow-hidden">
-            <Image
-              src="/unempfrog.jpg"
-              alt="avatar"
-              width="200"
-              height="200"
-            />
+          <div className="ml-6 py-5">
+            <h1 className="text-2xl md:text-3xl font-semibold">
+              Ahmed Mohamed
+            </h1>
+            <h2 className="md:text-lg text-gray-500 dark:text-gray-400">
+              Developer / Student / Tea enjoyer
+            </h2>
           </div>
         </div>
         {/* Hero */}
@@ -45,7 +42,7 @@ export default function Home() {
           </p>
         </div> */}
         {/* Projects */}
-        <div className="w-full mt-5">
+        {/* <div className="w-full mt-5">
           <h1 className="text-xl font-bold mb-5">Profile</h1>
           <p className="w-full my-3 px-5 py-5 rounded bg-beige-300 dark:bg-dark-300">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
@@ -57,7 +54,7 @@ export default function Home() {
             aperiam illum beatae voluptas laboriosam porro cum reprehenderit
             esse.
           </p>
-        </div>
+        </div> */}
         {/* Projects */}
         <div className="w-full mt-5">
           <h1 className="text-xl font-bold mb-5">Works</h1>

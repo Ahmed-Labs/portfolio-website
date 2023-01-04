@@ -23,7 +23,7 @@ export function getProjects() {
       description:
         "This application allows users to send Ethereum to multiple addresses in a single transaction, saving time and substantially reducing transaction gas costs.",
       website: "https://www.trackle.vercel.app/dashboard",
-      stack: ["Next", "React", "Tailwind", "MongoDB", "RegEx"],
+      stack: ["React", "Solidity", "Truffle", "Tailwind"],
       source: "https://github.com/Ahmed-Labs/eth-multi-sender",
       previews: [],
     },

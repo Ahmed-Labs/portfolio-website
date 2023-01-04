@@ -5,15 +5,13 @@ import { ThemeContext } from "./themeContext";
 function Navbar() {
   const {toggleFunction} = useContext(ThemeContext)
   return (
-    <div className="sticky z-10 top-0 left-0 right-0 backdrop-blur-sm bg-white/30 dark:bg-none dark:bg-transparent">
-      <div className="flex items-center mx-4 py-1">
+    <div className="sticky z-10 top-[10px] left-0 right-0 mx-4 rounded border border-gray-400 dark:border-gray-600 backdrop-blur-sm bg-white/30 dark:bg-none dark:bg-transparent">
+      <div className="flex items-center px-1.5 py-1">
         <Link scroll={false} href="/">
           <div className="flex items-center">
-            <div className="text-indigo-500">
-              <BsGlobe size={25} />
-            </div>
-            <div className="font-bold text-sm leading-[15px] md:text-lg ml-2">
-              Ahmed Mohamed
+      
+            <div className="text-indigo-500 font-bold text-xl leading-[15px] ml-5">
+              A
             </div>
           </div>
         </Link>
@@ -43,7 +41,7 @@ function Navbar() {
           onClick={() => {
             toggleFunction();
           }}
-          className="text-white bg-indigo-500 p-3 text-xl font-bold rounded ml-auto"
+          className="text-white bg-indigo-500 p-3 text-xl font-bold rounded ml-auto cursor-pointer"
         >
           <BsFillSunFill />
         </div>

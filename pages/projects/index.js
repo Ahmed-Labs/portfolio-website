@@ -8,7 +8,7 @@ function AllProjects() {
 
   return (
     <div>
-      <div className="mt-4 flex justify-center">
+      <div className="mt-8 flex justify-center">
         <div className="flex flex-col items-center relative max-w-[600px] mx-5 px-2">
           <div className="w-full mt-5">
             <div className="mb-5">

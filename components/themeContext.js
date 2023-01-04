@@ -3,7 +3,7 @@ import React, { createContext, useEffect, useState } from "react";
 const ThemeContext = createContext(false);
 
 function ThemeProvider({ children }) {
-  const [toggle, setToggle] = useState(false);
+  const [toggle, setToggle] = useState(true);
   function toggleFunction() {
     setToggle(!toggle);
   }
